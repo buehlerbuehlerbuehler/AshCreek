@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.httpsashcreekplayschool.ashcreek.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ashcreek"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:id="@+id/ashcreek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f4d3ca"
+        android:text="Ashcreek Playschool"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/ashcreek"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:background="#f4d3ca"
+        android:text="1505 Weird Rd"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/street"
+        android:background="#f4d3ca"
+        android:text="Beaverton, OR 97007"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f4d3ca"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/city"
+        android:text="(702) 576-1746"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_centerHorizontal="true"
+        android:background="#f4d3ca"
+        android:text="ashcreekplayschool@gmail.com"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="We offer a mixed-age class for 3-5 year olds. Classes are lead by Teacher Erika and parent helpers for a 4:1 ratio"
+        android:textSize="15sp"
+        android:background="#fce4ec"
+        android:textStyle="italic"/>
+    </RelativeLayout>
